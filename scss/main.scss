@@ -1,0 +1,13 @@
+// Import all files
+// Essentials
+// Yes animations is essentail
+@import "essentials/variables.scss";
+@import "essentials/mixins.scss";
+@import "essentials/animations.scss";
+@import "essentials/base.scss";
+
+// Components
+@import "components/header.scss";
+@import "components/navbar.scss";
+@import "components/timeline.scss";
+@import "components/contact.scss";

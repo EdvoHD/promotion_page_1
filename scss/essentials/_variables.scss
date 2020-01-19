@@ -1,0 +1,44 @@
+
+// primär färgen för knappar / utstickande och klickbara saker
+$primary-color: #4154DA;
+$comp-color: #414141;
+
+// Secondary 
+$secondary-color: #F5A623;
+$error-color: #DA4154;
+$success-color: #54DA41;
+
+// Analogous
+$al-1: #7A49A5;
+$al-2: #4974A5;
+
+// Attributes
+$tl-orange: #FF8D00;
+$tl-green: #9CD700;
+$tl-cyan: #00D7DA;
+$tl-navy: #0187CF;
+$tl-purple: #563399;
+$tl-darkpink: #DE196C;
+
+// Shadows
+$box-shadow: 0 .12rem .5rem #0000003d;
+$box-shadow-2: 0 4px 6px #0000003d;
+
+// widths, paddings och margins
+$navbarSpacing: 0 2rem;
+$wrapperSpacing: 2rem 4rem;
+
+// breakpoints 
+$mobile-width: 420px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+$white-color:#fff;
+
+
+#test {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

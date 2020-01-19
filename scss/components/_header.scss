@@ -1,0 +1,76 @@
+#header {
+    position: relative;
+    height: 105vh;
+    background-image: linear-gradient(to right bottom, #414141, rgba(65, 83, 218, 0.692)), url(../../images/header-img.jpg);
+    background-size: cover;
+    //background-position: bottom;
+    background-attachment: fixed;
+    position: relative;
+    //clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    z-index: 1;
+
+    @include mobile {
+        background-position: 80% center;
+    }
+
+    .header-title {
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        // border-bottom: 4px solid $secondary-color;
+        // border-top: 4px solid $secondary-color;
+        text-align: center;
+        padding: 1rem 0;
+
+        @include mobile {
+            width: 80%;
+        }
+
+        .header-border {
+            width: 100%;
+            height: .3rem;
+            background: $secondary-color;
+            margin: .8rem 0;
+            border-radius: 15px;
+            box-shadow: $box-shadow;
+        }
+
+        .header-text-box {
+            padding: .4rem 0 1rem;
+
+            span { // TYPEWRITE SIZE
+                font-size: 4.2rem;
+                color: $white-color;
+                opacity: 1;
+
+                @include mobile {
+                    font-size: 2.8rem;
+                }
+            }
+
+            h1 {
+                color: #fff;
+                font-size: 4.2rem;
+                padding: .5rem 0;
+
+                @include mobile {
+                    font-size: 10vw;
+                }
+            }
+        }
+
+        span {
+            font-size: 1rem;
+            opacity: 0.9;
+            font-style: italic;
+            padding: .5rem 0;
+        }
+
+        .effect-header-2 {
+            font-style: italic;
+        }
+    }
+
+}
